@@ -1,0 +1,55 @@
+<!-- dialog_item_detail.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewDetailTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textViewDetailPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price" />
+
+    <!-- 추가로 필요한 정보 표시 -->
+
+    <TextView
+        android:id="@+id/textViewDetailuserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="userEmail" />
+
+    <TextView
+        android:id="@+id/textViewDetailSold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sold" />
+
+    <TextView
+        android:id="@+id/textViewDetailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description" />
+
+    <Button
+        android:id="@+id/buttonSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/buttonEditItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone" />
+</LinearLayout>
